@@ -1,5 +1,5 @@
-# Project Name
-> Outline a brief description of your project.
+# Bike Sharing Assignment
+> A data analysis and machine learning project to predict bike demand for a bike-sharing company using linear regression.
 
 
 ## Table of Contents
@@ -11,34 +11,34 @@
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+- This project aims to analyze factors affecting bike-sharing demand and build a model to predict future demand, helping the company better plan for resource allocation.
+- **Background**: Bike-sharing systems are becoming increasingly popular, allowing individuals to rent bikes for short-term use. Understanding the demand trends helps companies manage inventory and provide a better user experience.
+- **Business Problem**: BoomBikes, a U.S.-based bike-sharing provider, wants to predict demand for bikes post-pandemic. This insight will help them tailor their business strategy and maximize profits.
+- **Dataset Used**: The dataset includes daily bike demand with features like weather conditions, seasonal effects, holidays, and working days, along with the actual daily demand (`cnt`).
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- Year (`yr`) and Season (`season`) have a significant impact on bike demand, with higher demand in 2019 and during summer and fall.
+- High temperatures positively correlate with bike demand, while high humidity and windspeed negatively impact it.
+
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Acknowledgements
 Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+- Dataset provided by Upgrad
+
 
 
 ## Contact
